@@ -1,0 +1,16 @@
+@use '../../styles/globals' as globals;
+
+.buttonStyle{
+button{
+   width: 340px;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: globals.$color_light_brown;
+  color: globals.$color_bg_white;
+  cursor: pointer;
+}
+}

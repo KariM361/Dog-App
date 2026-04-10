@@ -1,0 +1,23 @@
+@use "../../styles/globals.scss" as globals;
+
+body {
+  height: 100vh;
+  background:
+    radial-gradient(ellipse 100% 50% at 60% 20%, #b4d2dc8c 0%, transparent 55%),
+    radial-gradient(ellipse 70% 40% at 30% 35%, #64a0b966 0%, transparent 50%),
+    linear-gradient(
+      175deg,
+      #b8d4d8 0%,
+      #acbdaa 15%,
+      #858585 28%,
+      #cec0bb 42%,
+      #1e2d4c 65%
+    );
+}
+
+.headerStyle {
+  h1 {
+    color: globals.$color_bg_white;
+    justify-content: center;
+  }
+}
