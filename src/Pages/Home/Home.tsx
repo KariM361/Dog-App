@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import styles from './Home.module.scss'
-import pote from './../../assets/pote.svg'
+import paw from './../../assets/paw.svg'
+import {Input} from "../../components/Input/Input"
 import { Button } from "../../components/Button/Button"
 
 
@@ -24,11 +25,11 @@ getData()
   return (
     <>
     <header className={styles.headerStyle}>
-        <h1>PawGuide</h1>
-     <img src={pote} alt="pote" />
+      <h1>PawGuide</h1>
+     <img src={paw} alt="paw" />
      </header>
-
-     <input type="search" placeholder="Search" />
+    <Input/>
+     
       <Button/>
     </>
   )

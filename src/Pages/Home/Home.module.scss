@@ -1,5 +1,6 @@
 @use "../../styles/globals.scss" as globals;
 
+
 body {
   height: 100vh;
   background:
@@ -16,8 +17,18 @@ body {
 }
 
 .headerStyle {
+  display: flex;
   h1 {
+   text-align: center;
     color: globals.$color_bg_white;
-    justify-content: center;
+    font-family: "Imprima", sans-serif;
+    
   }
+  img{
+    display: block;
+    justify-content:right;
+    width: 10%;
+    color: globals.$color_green;
+
+    }
 }

@@ -1,0 +1,23 @@
+@use '../../styles/globals' as globals;
+
+.inputStyle {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  input {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30px;
+    background-color:globals.$color_bg_white;
+    border:none;
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 1rem;
+    padding-left: 4px;
+    font-family: "Imprima", sans-serif;
+  }
+  img{
+    width: 20px;
+  }
+}

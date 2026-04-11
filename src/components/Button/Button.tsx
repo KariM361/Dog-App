@@ -1,14 +1,13 @@
+import { Link } from 'react-router-dom'
 import styles from './Button.module.scss'
-
 
 export function Button() {
   return(
-  <div className={styles.buttonStyle}>
-         <button>Hudeskov</button>
-         <button>Helbred</button>
-         <button>Foder</button>
-         <button>Pels</button>
-     </div>
-
-     )
-    }
+    <div className={styles.buttonStyle}>
+      <Link to="/DogPark"><button>DogPark</button></Link>
+      <Link to="/Helth"><button>Helth</button></Link>
+      <Link to="/Food"><button>Food</button></Link>
+      <Link to="/FurCare"><button>FurCare</button></Link>
+    </div>
+  )
+}
