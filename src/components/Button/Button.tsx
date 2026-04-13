@@ -5,9 +5,9 @@ export function Button() {
   return(
     <div className={styles.buttonStyle}>
       <Link to="/DogPark"><button>DogPark</button></Link>
-      <Link to="/Health"><button>Health</button></Link>
-      <Link to="/Food"><button>Food</button></Link>
-      <Link to="/FurCare"><button>FurCare</button></Link>
+      <Link to="/Temperament"><button>Temperament</button></Link>
+       <Link to="/Descriptions"><button>Descriptions</button></Link>
+      <Link to="/history"><button>History</button></Link>
     </div>
   )
 }

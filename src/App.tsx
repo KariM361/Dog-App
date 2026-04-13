@@ -1,27 +1,21 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Breeds } from "./Pages/Breeds/Breeds"
+import { Temperament } from "./Pages/Temperament/Temperament"
 import { DogParks } from "./Pages/DogParks/DogParks"
-import { Food } from "./Pages/Food/Food"
-import { FurCare } from "./Pages/Fur/Fur"
-import { Health } from "./Pages/Health/Health"
+import { Description } from "./Pages/Description/Description"
+import { History } from "./Pages/History/History"
 import { Home } from "./Pages/Home/Home"
-
-
-
 
 function App() {
  
-
   return (
     <> 
      <BrowserRouter>
       <Routes>
-        <Route path="/Home" element={<Home />}/>
-        <Route path="/Breeds" element={<Breeds />} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/Temperament" element={<Temperament />} />
         <Route path="/DogParks" element={<DogParks />} />
-        <Route path="/Health" element={<Health/>} />
-        <Route path="/Food" element={<Food/>} />
-        <Route path="/FurCare" element={<FurCare />} />
+              <Route path="/descriptions" element={<Description/>} />
+        <Route path="/History" element={<History />} />
       </Routes>
     </BrowserRouter>
     </>
