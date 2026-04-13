@@ -1,5 +1,5 @@
 import style from './Input.module.scss'
-import glass from './../../assets/glass.svg'
+import glass from './../../assets/icons/glass.svg'
 
 interface inputProps {
   label: string

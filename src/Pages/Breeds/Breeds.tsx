@@ -1,7 +1,7 @@
 //indsæt racer
 import { useEffect, useState } from "react"
 import styles from './Breeds.module.scss'
-import paw from './../../assets/paw.svg'
+import paw from './../../assets/icons/paw.svg'
 import {Input} from '../../components/Input/Input'
 
 

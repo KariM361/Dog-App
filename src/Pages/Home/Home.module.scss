@@ -32,3 +32,28 @@ body {
 
     }
 }
+.Container{
+   display: flex;
+
+
+.Submit {
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  color: globals.$color_bg_white;
+  background-color: globals.$color_light_brown;
+  border:none;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding-left: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:focus {
+    border: solid 3px black;
+  }
+
+  &:hover {
+    background-color:globals.$color_green;
+  }
+}}

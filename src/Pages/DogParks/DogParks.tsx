@@ -1,7 +1,7 @@
 // goggle maps
 import { useEffect, useState } from "react"
 import styles from './DogParks.module.scss'
-import paw from './../../assets/paw.svg'
+import paw from './../../assets/icons/paw.svg'
 import { Input } from "../../components/Input/Input"
 
 export function DogParks() {

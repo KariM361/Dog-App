@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import styles from './Fur.module.scss'
-import paw from './../../assets/paw.svg'
+import paw from './../../assets/icons/paw.svg'
 
 
 export function FurCare() {

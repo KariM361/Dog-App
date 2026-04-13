@@ -1,0 +1,16 @@
+{
+	"name": "Dogapp",
+	"short_name": "DOG-APP",
+	"start_url": "./index.html",
+	"id": "./index.html",
+	"display": "standalone",
+	"background_color": "#ACBDAA",
+	"theme_color": "#858585",
+	"orientation": "portrait-primary",
+    "icons": [{
+            "src": "src/assets/icons/web-app-manifest-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        }]
+  }
