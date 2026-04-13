@@ -7,7 +7,6 @@ import { Submit } from "../../components/Submit/Submit"
 
 
 
-
 export function Home() {
 const [name, setname] = useState()
  
@@ -26,6 +25,7 @@ getData()
  console.log(name)
   return (
     <>
+    
     <header className={styles.headerStyle}>
       <h1>PawGuide</h1>
      <img src={paw} alt="paw" />
