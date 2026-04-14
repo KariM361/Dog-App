@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react"
 import styles from './Temperament.module.scss'
 import paw from './../../assets/icons/paw.svg'
+import house from './../../assets/icons/house.svg'
+import { Link } from "react-router-dom"
 
 
 
@@ -23,7 +25,8 @@ getData()
  console.log(temperament)
   return (
     <>
-    <header className={styles.headerStyle}>
+    <Link to="/"><img className={styles.houseButton} src={house} alt="house" /></Link>
+      <header className={styles.headerStyle}>
         <h1>PawGuide</h1>
      <img src={paw} alt="paw" />
      </header>

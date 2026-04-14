@@ -18,20 +18,33 @@ body {
 .headerStyle {
   display: flex;
   h1 {
-   text-align: center;
-    color: globals.$color_bg_white;
-    font-family: "Imprima", sans-serif;
-    
-  }
-  img{
     display: block;
-    justify-content:right;
+    justify-content: center;
+    color: globals.$color_bg_white;
+  }
+  img {
+    display: block;
+    justify-content: right;
     width: 10%;
     color: globals.$color_green;
-
-    }
+  }
 }
-h2{
-  text-align: center;
-  font-weight: 800;
+h2 {
+  font-family: "Imprima", sans-serif;
+  font-weight: 600;
+}
+.setionContainer {
+  background-color: globals.$color_light_brown;
+  border-radius: 20px;
+  height: 50vh;
+  p {
+    font-family: "Imprima", sans-serif;
+    font-size: 14px;
+  }
+}
+.houseButton {
+  display: flex;
+  width: 20px;
+  flex-direction: column;
+  justify-content: right;
 }
