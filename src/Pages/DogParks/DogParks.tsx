@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import styles from './DogParks.module.scss'
 import paw from './../../assets/icons/paw.svg'
-import { Input } from "../../components/Input/Input"
+
 
 export function DogParks() {
 const [dogParks, setdogParks] = useState()
@@ -28,7 +28,7 @@ getData()
      </header>
      <h2>DogParks</h2>
 
-     <Input/>
+  
 
 
     

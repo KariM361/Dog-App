@@ -18,18 +18,18 @@ export interface Dogdata {
     image:              Image;
 }
 
-export enum BreedGroup {
-    Companion = "Companion",
-    FoundationStockService = "Foundation Stock Service",
-    Guardian = "Guardian",
-    Herding = "Herding",
-    Hound = "Hound",
-    Mixed = "Mixed",
-    NonSporting = "Non-Sporting",
-    Sporting = "Sporting",
-    Terrier = "Terrier",
-    Toy = "Toy",
-    Working = "Working",
+export interface BreedGroup {
+    Companion: "Companion",
+    FoundationStockService:"Foundation Stock Service",
+    Guardian: "Guardian",
+    Herding: "Herding",
+    Hound: "Hound",
+    Mixed: "Mixed",
+    NonSporting: "Non-Sporting",
+    Sporting: "Sporting",
+    Terrier: "Terrier",
+    Toy: "Toy",
+    Working: "Working",
 }
 
 export interface Eight {
